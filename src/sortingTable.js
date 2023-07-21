@@ -1,7 +1,6 @@
 import React from 'react';
 
 import MuiSortingTable from './components/MuiSortingTable';
-import { Typography } from '@mui/material';
 
 function Main() {
 
@@ -36,10 +35,11 @@ function Main() {
             <br />
             <hr />
             <h2>簡單說明</h2>
-            <Typography>
+            <div>
                 選點「欄位A」「欄位B」「欄位C」「欄位D」可以此欄位的值的大小來排序 <br /><br />
                 <a href="https://github.com/goodchuck2274/mui-component/tree/main/src/components/MuiSortingTable.js" target='_blank'>元件連結</a>
-            </Typography>
+                、<a href="https://github.com/goodchuck2274/mui-component/tree/main/src/sortingTable.js" target='_blank'>範例程式連結</a>
+            </div>
         </>
     );
 }
