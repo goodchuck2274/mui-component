@@ -3,7 +3,7 @@ import React from 'react';
 function Home() {
     return (
         <>
-            這是首頁
+            整理一些非官方的實用小元件，提供同仁使用
         </>
     );
 }
